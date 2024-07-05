@@ -60,11 +60,11 @@ print(y_velocity_matrix)
 # Visualize the velocity field
 X, Y = np.meshgrid(np.arange(mesh_size), np.arange(mesh_size))
 
-plt.figure(figsize=(10, 10))
-plt.quiver(X, Y, x_velocity_matrix, y_velocity_matrix, scale=1, scale_units='xy')
-plt.xlim(0, mesh_size-1)
-plt.ylim(0, mesh_size-1)
-plt.gca().set_aspect('equal')
-plt.title("Velocity Field of Circular Vortex")
-plt.show()
+# plt.figure(figsize=(10, 10))
+# plt.quiver(X, Y, x_velocity_matrix, y_velocity_matrix, scale=1, scale_units='xy')
+# plt.xlim(0, mesh_size-1)
+# plt.ylim(0, mesh_size-1)
+# plt.gca().set_aspect('equal')
+# plt.title("Velocity Field of Circular Vortex")
+# plt.show()
 
